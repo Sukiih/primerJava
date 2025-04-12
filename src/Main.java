@@ -10,5 +10,16 @@ public class Main {
         double media = (8.2 + 6.0 + 9.0) / 3;
 
         System.out.println(media);
+
+        String sinopsis = """
+                Matrix es una paradoja
+                La mejor película del milenio
+                Fué lanzada en:""" + fechaDeLanzamiento;
+
+        System.out.println(sinopsis);
+
+        int clasificacion = (int) (media / 2);
+
+        System.out.println(clasificacion);
     }
 }
