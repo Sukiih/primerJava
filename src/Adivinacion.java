@@ -8,7 +8,7 @@ public class Adivinacion {
         int numeroSecreto = new Random().nextInt(100);
 
         while(true){
-            System.out.println("Ingresa un número para adivinar el número secreto");
+            System.out.println("Ingresa un número entre 0 y 100 para adivinar el número secreto");
             int numeroUsuario = teclado.nextInt();
             contador++;
 
